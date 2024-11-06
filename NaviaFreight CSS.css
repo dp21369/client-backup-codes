@@ -1,0 +1,70 @@
+/* MENU CSS  */
+.midnightInner {
+    inset: unset !important;
+    width: 100%;
+}
+
+header.header {
+    height: unset !important;
+}
+
+header.header,
+.midnightHeader.default,
+.midnightInner {
+    overflow: visible !important;
+}
+
+.menu-menu-container .sub-menu {
+    position: absolute;
+    display: none;
+    height: auto;
+    width: auto;
+    /*     margin-top: 15px; */
+    background-color: #00000061;
+    padding: 10px 15px;
+    min-width: 250px;
+}
+
+.menu-menu-container .menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+.menu-menu-container .sub-menu li {
+    display: block;
+    margin: 0;
+    border-bottom: #85858a 1px solid;
+    padding: 0;
+}
+
+.menu-menu-container .sub-menu li:last-child {
+    border: 0;
+}
+
+.menu-menu-container .sub-menu a {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    /* text-transform: capitalize; */
+    font-weight: 300;
+    margin: 12px 0;
+    display: inline-block;
+}
+
+.menu-menu-container .sub-menu a:hover {
+    color: var(--site-colour);
+}
+
+
+@media screen and (max-width:1023px) {
+    .menu-item-has-children a {
+        color: #FFF !important;
+    }
+
+    .menu-item-has-children .sub-menu {
+        display: none;
+    }
+
+    .menu-item-has-children:hover .sub-menu {
+        display: block;
+    }
+}
