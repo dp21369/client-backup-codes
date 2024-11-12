@@ -1,4 +1,5 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
+
     * {
         word-wrap: break-word;
     }
@@ -33,6 +34,7 @@
     }
 
     /* MENU POPUP  */
+
     #elementor-popup-modal-16659 .elementor-heading-title {
         font-size: 16px !important;
     }
@@ -42,6 +44,7 @@
     }
 
     /* TESTIMONIAL PAGE  */
+
     .wpcs-testimonials .slick-slide section section .jet-listing-dynamic-field__inline-wrap * {
         line-height: 1.2 !important;
     }
@@ -77,4 +80,27 @@
     }
 
     .wpcs-yna-texts {}
+
+
+    .elementor-element>.elementor-element,
+    .elementor-element>.elementor-element>.elementor-element {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0;
+        margin-right: 0 !important;
+    }
+
+    .elementor-element>.elementor-element>.elementor-element .elementor-element {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .elementor-element>.elementor-element>.elementor-widget-container {
+        margin-left: 0 !important;
+        padding-left: 10px !important;
+    }
+
+    .elementor-element>.elementor-element>.elementor-element .elementor-widget-container {
+        padding-left: 0 !important;
+    }
 }
