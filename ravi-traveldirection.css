@@ -1,7 +1,7 @@
 .entry-content.clear {
     height: auto;
     visibility: visible;
-	line-height:1;
+    line-height: 1;
 }
 
 
@@ -12,8 +12,8 @@
 }
 
 .search-form.elementor-widget-search .e-search-input-wrapper,
-.search-form.elementor-widget-search .e-search .e-search-submit{
-	flex: 1 1 50% !important;
+.search-form.elementor-widget-search .e-search .e-search-submit {
+    flex: 1 1 50% !important;
 }
 
 .search-form.elementor-widget-search .e-search .e-search-submit {
@@ -21,12 +21,12 @@
 }
 
 .entry-content p {
-	margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .tourmaster-thumbnail-ribbon {
     top: 0;
-  
+
 }
 
 .tourmaster-tour-medium .tourmaster-tour-title {
@@ -36,4 +36,8 @@
 #contact_form .elementor-field {
     padding: 15px;
     height: auto;
+}
+
+.boxed-container {
+    max-width: 1140px;
 }
