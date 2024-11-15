@@ -1,0 +1,39 @@
+.entry-content.clear {
+    height: auto;
+    visibility: visible;
+	line-height:1;
+}
+
+
+/* DEV CSS  */
+
+.elementor-element a {
+    color: #538460;
+}
+
+.search-form.elementor-widget-search .e-search-input-wrapper,
+.search-form.elementor-widget-search .e-search .e-search-submit{
+	flex: 1 1 50% !important;
+}
+
+.search-form.elementor-widget-search .e-search .e-search-submit {
+    justify-content: center;
+}
+
+.entry-content p {
+	margin-bottom:0;
+}
+
+.tourmaster-thumbnail-ribbon {
+    top: 0;
+  
+}
+
+.tourmaster-tour-medium .tourmaster-tour-title {
+    margin-top: 10px;
+}
+
+#contact_form .elementor-field {
+    padding: 15px;
+    height: auto;
+}
