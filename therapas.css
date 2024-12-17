@@ -1,0 +1,244 @@
+.home .learndash-pager.learndash-pager-course_list {
+    display: none
+}
+
+/* CUSTOM STYLE CSS  */
+.dokan-store-rating,
+.single-product .product .product_meta .tagged_as {
+    display: none !important;
+}
+
+.single-product .product .product_meta .posted_in {
+    margin: 0;
+}
+
+.lm-course-meta .lm-course-price .lm-course-paid {
+    text-transform: none;
+}
+
+.woocommerce-shop .product .event-date,
+.woocommerce-shop .product .woocommerce-loop-product__title {
+    padding: 0 10px !important;
+    text-align: center;
+}
+
+section.widget {
+    background: var(--reign-site-sections-bg-color);
+    padding: 15px;
+    border-radius: var(--reign-global-border-radius);
+    border: 1px solid var(--reign-site-border-color);
+    margin-bottom: 30px;
+}
+
+section.widget .rg-news-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+section.widget .rg-news-thumb img {
+    max-width: 100px;
+    border-radius: var(--reign-global-border-radius);
+    margin-right: 15px;
+}
+
+section.widget .rg-news-post-title {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+.archive-sidebar section.widget_search {
+    /*     display: none; */
+}
+
+/* INSIGHTS PAGE CSS  */
+.custom-filter .courses-searching form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px
+}
+
+.custom-filter .courses-searching form>div {
+    flex: 1;
+}
+
+.custom-filter .courses-searching form select {
+    width: 100%;
+}
+
+.custom-filter .courses-searching .search-field {
+    border-radius: 10px !important;
+}
+
+.custom-filter .search-field {
+    background: transparent url(https://therapas.com.au/staging/3362/wp-content/themes/reign-theme/assets/img/svg/search.svg) no-repeat 7px;
+    background-size: 18px;
+    background-color: unset !important;
+    background-position: 95% center;
+}
+
+
+.courses-searching {
+    margin-bottom: 30px;
+}
+
+#ajax-search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cpm-custom-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-basis: calc((50% - 30px) + (30px/2));
+    margin: 0;
+}
+
+.cpm-card-image {
+    position: relative;
+}
+
+.cpm-card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+
+
+
+.cpm-card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.cpm-author-info {
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.cpm-author-image {
+    width: 50px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50px !important;
+    overflow: hidden;
+    box-shadow: 0 0 0 6px #f5f6f7 !important;
+}
+
+
+.cpm-meta-info {
+    font-size: 14px;
+    color: #adb5bd;
+}
+
+.cpm-meta-info span {
+    display: block;
+    color: var(--reign-site-alternate-text-color);
+}
+
+.cpm-meta-info .cpm-author-name {
+    color: var(--reign-site-headings-color);
+}
+
+.cpm-categories {
+    margin-bottom: 10px;
+}
+
+.cpm-category {
+    background-color: var(--reign-site-secondary-bg-color);
+    color: var(--reign-site-headings-color);
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.cpm-post-title,
+. .cpm-post-excerpt {
+    margin-bottom: 15px;
+}
+
+.cpm-read-more {
+    display: inline-block;
+    background-color: var(--reign-site-button-bg-color);
+    color: var(--reign-site-button-text-color);
+    padding: 10px 20px;
+    border: 1px solid var(--reign-site-button-bg-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 6px;
+}
+
+.cpm-read-more:hover {
+    text-decoration: none;
+    color: var(--reign-site-button-text-color);
+}
+
+.woocommerce-account .dokan-btn.vendor-dashboard {
+    display: none;
+}
+
+.upk-post-grid .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    transform: unset !important;
+    gap: 30px;
+}
+
+
+.upk-post-grid .swiper-wrapper .upk-item.swiper-slide {
+    flex-basis: calc((25% - 30px) + (30px/4));
+    margin-right: 0 !important;
+}
+
+.ld-course-list-items .ld_course_grid .entry-title {
+    margin: 0 !important;
+    line-height: 1.2;
+}
+
+.upk-maple-carousel .upk-title a:hover {
+    color: unset;
+    background-size: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .upk-post-grid .swiper-wrapper .upk-item.swiper-slide {
+        flex-basis: calc((50% - 30px) + (30px/2));
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .custom-filter .courses-searching form>div,
+    .cpm-custom-card {
+        flex-basis: 100%;
+    }
+
+    .upk-post-grid .swiper-wrapper .upk-item.swiper-slide {
+        flex-basis: 100%;
+
+    }
+
+    .eael-product-grid .woocommerce .product,
+    .eael-product-grid .woocommerce .product .attachment-woocommerce_thumbnail {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+}
