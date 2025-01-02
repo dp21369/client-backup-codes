@@ -53,6 +53,22 @@ section.widget .rg-news-post-title {
     /*     display: none; */
 }
 
+.lm-course-price .lm-course-paid {
+    color: var(--reign-site-link-color);
+}
+
+.learndash-wrapper .ld-course-status .ld-course-status-price {
+    font-size: 18px !important;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme {
+    display: block;
+}
+
+.woocommerce-form-login .mo-openid-app-icons {
+    margin-bottom: 10px;
+}
+
 /* INSIGHTS PAGE CSS  */
 .custom-filter .courses-searching form {
     display: flex;
@@ -81,8 +97,8 @@ section.widget .rg-news-post-title {
 }
 
 
-.courses-searching {
-    margin-bottom: 30px;
+#ajax-search-results{
+    margin-top: 30px;
 }
 
 #ajax-search-results {
@@ -216,6 +232,54 @@ section.widget .rg-news-post-title {
     color: unset;
     background-size: 0;
 }
+
+.courses-searching {
+    margin-bottom: 0px;
+}
+
+.woocommerce-MyAccount-content .dokan-account-migration-lists .btn {
+    padding: 10px;
+}
+
+
+/* LOGIN FORM CSS */
+
+
+#xs-social-login-container {
+    margin: 15px 0 30px !important;
+    padding-bottom: 0 !important;
+}
+
+#xs-social-login-container .xs-login {
+    display: flex !important;
+}
+
+#xs-social-login-container .xs-login .xs-login__item {
+    /* display: inline-block !important; */
+    background-color: unset !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+#xs-social-login-container .xs-login .xs-login__item--icon {
+    border-radius: 0 !important;
+    aspect-ratio: 1;
+}
+
+#xs-social-login-container .xs-login__item .xs-login__item--label {
+    /* display: none !important; */
+}
+
+
+#xs-social-login-container .xs-login .xs-login__item:hover .xs-login__item--icon {
+    background-color: var(--wslu-color-scheme) !important;
+    color: #FFF !important;
+}
+
+#xs-social-login-container .xs-login--style-1 .xs-login__item:hover .xs-login__item--label {
+    color: var(--wslu-color-scheme) !important;
+}
+
 
 @media screen and (max-width: 991px) {
     .upk-post-grid .swiper-wrapper .upk-item.swiper-slide {
